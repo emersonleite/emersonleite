@@ -2,6 +2,8 @@
 
 body,
 p,
+ul,
+li,
 h1,
 h2,
 h3,
@@ -27,13 +29,33 @@ a {
 
 /* ----- Containers ----- */
 
-.cont-960 {
+.cont-768-flex {
+  display: flex;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.cont-960-flex {
+  display: flex;
   max-width: 960px;
   margin: 0 auto;
 }
 
-.cont-1200 {
-  max-width: 1200px;
+.cont-1024-flex {
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.cont-1280-flex {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.cont-1440-flex {
+  display: flex;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
