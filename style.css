@@ -320,14 +320,7 @@ a {
   padding-left: 30px;
 }
 
-.div1 {
-  background: #252525;
-}
-
-.div2 {
-  flex: 0 0 calc(33% - 20px);
-  background: white;
-}
+/* ----- Flexbox ----- */
 
 .flex {
   display: flex;
@@ -335,4 +328,8 @@ a {
 
 .wrap {
   flex-wrap: wrap;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
 }
