@@ -333,3 +333,12 @@ a {
 .nowrap {
   flex-wrap: nowrap;
 }
+
+.space-between {
+  justify-content: space-between;
+  
+}
+
+.align-items-center {
+  align-items: center;
+}

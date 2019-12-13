@@ -1,23 +1,43 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no ">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<div class="home">
+  <meta name="description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos passeio, retrô e esporte">
+    
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="..."/>
+  <meta property="og:description" content="..."/>
+  <meta property="og:url" content="http://teste.com"/>
+  <meta property="og:image" content="teste/og-image.png"/>
 
-  <h1 class="page-heading">Posts</h1>
+  <link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.css">
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <title>Emerson Leite</title>
+</head>
+<body>
 
-</div>
+  <header class="header">
+    <div class="cont-960-flex wrap pt-10 pb-10 space-between align-items-center">
+    <img src="img/logo.svg" alt="logo Emerson">
+    <nav>
+      <ul class="flex wrap">
+        <li><a href="#sobre">sobre</a></li>
+        <li><a href="#posts">posts</a></li>
+        <li><a href="#portfolio">portfólio</a></li>
+        <li><a href="#contato">contato</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+  
+</body>
+</html>
