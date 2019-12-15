@@ -1,3 +1,5 @@
+/*----- Header -----*/
+
 .header {
   background: #252525;
   border-bottom: 3px solid #CDA112;
@@ -5,12 +7,17 @@
 
 .header nav ul li {
   font-family: 'Hammersmith One', sans-serif;
-  text-transform: uppercase;
-  font-size: 18px;
+  text-transform: capitalize;
+  font-size: 1.125em;
 }
 
 .header nav ul li {
   padding-left: 20px;
+}
+
+.header nav ul li a {
+  display: block;
+  padding: 20px 0px;
 }
 
 .header img {
@@ -18,3 +25,80 @@
   height: 80px;
   align-self: flex-start;
 }
+
+/*----- Fim de Header -----*/
+
+/*----- Títulos de seção -----*/
+
+.titulo-secao {
+  color: #252525;
+  font-family: 'Hammersmith One', sans-serif;
+  font-weight: normal;
+  font-size: 2.25em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.titulo-secao::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: #CDA112;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 3px 3px 3px #bdbcbc ;
+}
+
+/*----- Fim de Títulos de seção -----*/
+
+/*----- Sobre -----*/
+
+.sobre h2 {
+  color: #CDA112;
+  font-family: 'Hammersmith One', sans-serif;
+  font-weight: normal;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+.formacao {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+.formacao strong {
+  color: #CDA112;
+  }
+
+/*----- Fim de sobre -----*/
+
+/*----- Portfólio -----*/
+
+.color-titulo-portfolio {
+  color: #CDA112;
+}
+
+.portfolio {
+  background: #252525;
+}
+
+.portfolio img {
+  width: 220px;
+  border: 5px solid #707070;
+  margin-left: 10px;
+  margin-right: 10px;
+  /*box-sizing: content-box;*/
+}
+
+.flex-1-220 {
+  flex-basis: 220px;
+}
+
+.align-content-center {
+  align-items: center;
+}
+
+/*----- Fim do Portfólio -----*/
