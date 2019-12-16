@@ -2,11 +2,11 @@
 
 .header {
   background: #252525;
-  border-bottom: 3px solid #CDA112;
+  border-bottom: 3px solid #cda112;
 }
 
 .header nav ul li {
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: "Hammersmith One", sans-serif;
   text-transform: capitalize;
   font-size: 1.125em;
 }
@@ -32,7 +32,7 @@
 
 .titulo-secao {
   color: #252525;
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: "Hammersmith One", sans-serif;
   font-weight: normal;
   font-size: 2.25em;
   text-align: center;
@@ -46,10 +46,10 @@
   display: block;
   width: 16px;
   height: 16px;
-  background: #CDA112;
+  background: #cda112;
   border-radius: 50%;
   margin: 0 auto;
-  box-shadow: 3px 3px 3px #bdbcbc ;
+  box-shadow: 3px 3px 3px #bdbcbc;
 }
 
 /*----- Fim de Títulos de seção -----*/
@@ -57,32 +57,33 @@
 /*----- Sobre -----*/
 
 .sobre h2 {
-  color: #CDA112;
-  font-family: 'Hammersmith One', sans-serif;
+  color: #cda112;
+  font-family: "Hammersmith One", sans-serif;
   font-weight: normal;
   font-size: 1.5em;
   text-transform: capitalize;
 }
 
 .formacao {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.5;
 }
 
 .formacao strong {
-  color: #CDA112;
-  }
+  color: #cda112;
+}
 
 /*----- Fim de sobre -----*/
 
 /*----- Portfólio -----*/
 
 .color-titulo-portfolio {
-  color: #CDA112;
+  color: #cda112;
 }
 
 .portfolio {
   background: #252525;
+  padding-bottom: 30px;
 }
 
 .portfolio img {
@@ -90,15 +91,22 @@
   border: 5px solid #707070;
   margin-left: 10px;
   margin-right: 10px;
-  /*box-sizing: content-box;*/
+}
+
+.lista-portfolio ul li p {
+  color: #cda112;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: lighter;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .flex-1-220 {
-  flex-basis: 220px;
-}
-
-.align-content-center {
-  align-items: center;
+  flex-basis: 350px;
 }
 
 /*----- Fim do Portfólio -----*/
+

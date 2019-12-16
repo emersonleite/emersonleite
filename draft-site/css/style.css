@@ -30,6 +30,10 @@ a {
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* ----- Containers ----- */
 
 .box-768 {
@@ -365,12 +369,15 @@ a {
   flex-wrap: nowrap;
 }
 
-.space-between {
+.justify-between {
   justify-content: space-between;
-  
 }
 
-.align-items-center {
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
   align-items: center;
 }
 
