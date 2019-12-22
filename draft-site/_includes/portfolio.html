@@ -1,0 +1,18 @@
+<!--Portfólio-->
+<section id="portfolio" class="portfolio pb-30">
+  <h1 class="titulo-secao titulo-portfolio pt-50">
+    Portfólio
+  </h1>
+  <div class="box-960 lista-portfolio">
+    <div class="row-960">
+    <ul class="flex justify-center wrap">
+      {% for portfolio in site.data.portfolio %}
+      <li>
+        <a href={{portfolio.href}}><img src="img/{{portfolio.img}}" alt="{{portfolio.name}}"/></a>
+        <h2>{{portfolio.name}}</h2>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  </div>
+</section>

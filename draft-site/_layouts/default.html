@@ -1,20 +1,12 @@
 <!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
+<html lang="pt-br">
+{% include head.html %}
   <body>
-
     {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
+    {% include sobre.html %}
+    {% include portfolio.html %}
+    {% include certificados.html %}
+    {% include contato.html %}
     {% include footer.html %}
-
   </body>
-
 </html>

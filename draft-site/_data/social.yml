@@ -1,0 +1,11 @@
+- name: Linkedin
+  img: 'icone-linkedin.svg'
+  href: '#'
+
+- name: Github
+  img: 'icone-github.svg'
+  href: '#'
+
+- name: Codepen
+  img: 'icone-codepen.svg'
+  href: '#'

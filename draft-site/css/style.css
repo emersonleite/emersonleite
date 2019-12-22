@@ -10,7 +10,8 @@ h3,
 h4,
 h5,
 h6,
-div {
+div,
+input {
   margin: 0px;
   padding: 0px;
   margin-block-start: 0em;
@@ -28,6 +29,11 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 html{
@@ -48,6 +54,16 @@ html{
   margin: 0 auto;
   max-width: 960px;
   flex-wrap: wrap;
+}
+
+.row-960 {              /* Evitar grids menores de 960*/
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.smaller-960, .smaller-768 {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .box-1024 {
@@ -321,6 +337,10 @@ html{
   padding-bottom: 30px;
 }
 
+.pb-35 {
+  padding-bottom: 35px;
+}
+
 .pb-40 {
   padding-bottom: 40px;
 }
@@ -381,6 +401,14 @@ html{
   align-items: center;
 }
 
+.self-center {
+  align-self: center;
+}
+
 .flex-1 {
   flex: 1;
+}
+
+.column {
+  flex-direction: column;
 }
