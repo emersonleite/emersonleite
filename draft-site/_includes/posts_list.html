@@ -9,7 +9,7 @@
     <h2>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
-    <p class="data-lista-post">Postado em {% include post-date.html %}</p>
+    <p class="data-lista-post">Postado em {% include page-date.html %}</p>
     <p>
       {% if post.summary %} {{ post.summary }} {% else %} {{ post.excerpt }} {%
       endif %}
