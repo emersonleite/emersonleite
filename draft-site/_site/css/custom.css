@@ -332,6 +332,13 @@ button:hover {
 
 /*----- Media -----*/
 
+@media (max-width: 579px) {
+  .flex-direction-column {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
 @media (max-width: 981px) {
   .mobile {
     padding-right: 15px;
@@ -359,6 +366,7 @@ button:hover {
     padding-top: 15px;
   }
 }
+
 @media (max-width: 556px) {
   .menu-543 {
     justify-content: center;
