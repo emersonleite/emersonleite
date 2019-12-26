@@ -1,5 +1,5 @@
 ---
-layout: post_view
+layout: post-view
 title:  "Welcome to Jekyll!"
 date:   2019-12-05 15:14:53 -0300
 categories: jekyll update

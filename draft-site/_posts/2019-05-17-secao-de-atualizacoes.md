@@ -6,7 +6,7 @@ tags:
   - unna
   - site
   - atualizações
-layout: post_view
+layout: post-view
 summary: "..."
 comments: false
 sharing:

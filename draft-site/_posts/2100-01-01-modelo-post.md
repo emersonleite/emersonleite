@@ -1,5 +1,5 @@
 ---
-layout: post_view
+layout: post-view
 title: Título
 summary: "..."
 comments: true

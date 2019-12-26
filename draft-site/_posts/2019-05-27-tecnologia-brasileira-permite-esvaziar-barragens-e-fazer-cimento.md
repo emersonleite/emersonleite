@@ -1,5 +1,5 @@
 ---
-layout: post_view
+layout: post-view
 title: Tecnologia brasileira permite esvaziar barragens e fazer cimento
 summary: "..."
 comments: true

@@ -5,7 +5,7 @@ tags:
 - inovação
 - veículos autônomos
 - Curitiba
-layout: post_view
+layout: post-view
 summary: "..."
 comments: true
 sharing:

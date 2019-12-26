@@ -6,7 +6,7 @@ tags:
 - inovação
 - costrução civil
 - Andrade Gutierrez
-layout: post_view
+layout: post-view
 summary: "..."
 comments: true
 sharing:

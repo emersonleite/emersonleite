@@ -5,7 +5,7 @@ tags:
 - Nasa
 - rede pública
 - Escola de engenharia
-layout: post_view
+layout: post-view
 summary: "..." 
 comments: true
 sharing:
