@@ -4,6 +4,6 @@
       <circle cx="24" cy="24" r="24" stroke="none"/>
       <circle cx="24" cy="24" r="22.5" fill="none"/>
     </g>
-    <text id="in" transform="translate(1008 2404)" fill="#252525" font-size="28" font-family="SegoeUI, Segoe UI" letter-spacing="0.05em"><tspan x="0" y="0">in</tspan></text>
+    <text id="in" transform="translate(1008 2404)" fill="#252525" font-size="28" font-family="HammersmithOne, Hammersmith One" letter-spacing="0.05em"><tspan x="0" y="0">in</tspan></text>
   </g>
 </svg>

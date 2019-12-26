@@ -1,3 +1,7 @@
+#- name: JavaScript
+#  img: 'sololearn-javascript.png'
+#  href: '#'
+
 - name: Web Design
   img: 'web-design.png'
   href: '#'
