@@ -5,12 +5,10 @@ import shine from "./module/shine.js";
 import tooltip from "./module/tooltip-foto.js";
 import tooltipCheat from "./module/tooltip-cheat.js";
 
-
-function init() {
+// Chamada das funções
   accordion();
   modal();
   shine();
   tooltip();
   tooltipCheat();
-}
-init();
+
