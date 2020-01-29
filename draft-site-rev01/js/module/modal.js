@@ -13,8 +13,6 @@ export default function modal() {
     newButton.innerHTML = "<p>X</p>";
     newDiv.appendChild(newButton);
 
-    //newSection.style.height = "2000px";
-
     //lastSection.append(newSection);
     body.insertBefore(newSection, lastSection);
 
@@ -31,7 +29,6 @@ export default function modal() {
         window.addEventListener("keyup", keyupCallback);
       }
     });
-
     sectionObject.element = newSection;
   }
 

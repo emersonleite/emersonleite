@@ -18,9 +18,6 @@ export default function tooltip() {
     coordenada.X = divFoto.offsetLeft + photo.clientWidth / 2;
   }
 
-  /*   tooltip.style.top = coordenada.Y - tooltip.clientHeight / 2 + "px";
-  tooltip.style.left = coordenada.X + 2 + "px"; */
-
   photo.addEventListener("mouseover", onMouseOver);
 
   const onMouseLeave = {
@@ -35,8 +32,6 @@ export default function tooltip() {
     const tooltip = criarTooltipBox(this);
     coordenada.tooltipElement = tooltip;
     console.log(coordenada.tooltipElement);
-    /* */
-
     const largura = tooltip.clientWidth;
     console.log(largura);
     console.log(tooltip.clientHeight);
