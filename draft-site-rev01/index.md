@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-## Teste de edição.....
+## Teste de edição....
 
 
 You can use the [editor on GitHub](https://github.com/engleite/engleite.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
