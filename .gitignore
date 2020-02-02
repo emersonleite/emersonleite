@@ -1,2 +1,3 @@
 draft-site/css
 node_modules
+*.scss
