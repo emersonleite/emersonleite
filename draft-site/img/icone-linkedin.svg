@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
-  <g id="icone-linkedin" transform="translate(-996 -2372)">
-    <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(996 2372)" fill="#cda112" stroke="#cda112" stroke-width="3">
-      <circle cx="24" cy="24" r="24" stroke="none"/>
-      <circle cx="24" cy="24" r="22.5" fill="none"/>
-    </g>
-    <text id="in" transform="translate(1008 2404)" fill="#252525" font-size="28" font-family="HammersmithOne, Hammersmith One" letter-spacing="0.05em"><tspan x="0" y="0">in</tspan></text>
-  </g>
-</svg>
