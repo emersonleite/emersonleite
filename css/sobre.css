@@ -1,0 +1,45 @@
+/*----- Sobre -----*/
+
+.sobre {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sobre h2 {
+  color: #cda112;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: normal;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+.formacao {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.formacao strong {
+  color: #cda112;
+}
+
+.formacao a {
+  color: #fff;
+  font-weight: bolder;
+  display: inline-block;
+  padding: 3px 10px;
+  background: #cda112;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.formacao a:hover {
+  background: #252525;
+}
+
+.badge {
+  width: 40px;
+  display: inline-block;
+}
+
+/*----- Fim de sobre -----*/
