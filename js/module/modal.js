@@ -4,11 +4,13 @@ export default function modal() {
     const lastSection = document.querySelector("footer");
     const body = document.body;
 
+    // Criando nova seção...
     const newSection = document.createElement("section");
     newSection.setAttribute("data-modal", "true");
     const newDiv = document.createElement("div");
     newSection.appendChild(newDiv);
 
+    // criando novo notão de fechamento de janela
     const newButton = document.createElement("div");
     newButton.innerHTML = "<p>X</p>";
     newDiv.appendChild(newButton);
