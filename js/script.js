@@ -1,6 +1,6 @@
 import Countdown from "./countdown.js";
 
-const timeOnSite = new Countdown("27 February 2020 00:00:00 GMT-0300");
+const timeOnSite = new Countdown("01 March 2020 00:00:00 GMT-0300");
 const p = document.querySelector(".countdown p");
 const regexp = new RegExp(/(\d{2,})/g);
 
