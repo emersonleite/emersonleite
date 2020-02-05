@@ -4,8 +4,6 @@ const timeOnSite = new Countdown("01 March 2020 00:00:00 GMT-0300");
 const p = document.querySelector(".countdown p");
 const regexp = new RegExp(/(\d{2,})/g);
 
-console.log(timeOnSite.total);
-
 renderTime(timeOnSite);
 
 function format(text) {
@@ -17,14 +15,14 @@ function format(text) {
 }
 
 function renderTime(timeEntry) {
-  const t = timeEntry.total;
+  const time = timeEntry.total;
   const timeOnPage =
-    format(`${t.days} dias, `) +
-    format(`${t.hours}`) +
+    format(`${time.days} dias,`) +
+    format(`${time.hours}`) +
     ":" +
-    format(`${t.minutes}`) +
+    format(`${time.minutes}`) +
     ":" +
-    format(`${t.seconds}`);
+    format(`${time.seconds}`);
   p.innerText = timeOnPage;
 }
 
