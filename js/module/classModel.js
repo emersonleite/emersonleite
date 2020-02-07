@@ -1,4 +1,4 @@
-export default class ClassModel {
+export class ClassModel {
   // Recebendo dados na instanciação do objeto:
   constructor(itemsList) {
     this.list = document.querySelectorAll(itemsList);
@@ -17,7 +17,7 @@ export default class ClassModel {
     };
   }
 
-  //Métodos relacionando elementos de uma lista
+  //Método de exemplo que relaciona elementos de uma lista
   method01(items) {
     items.forEach(item => {
       console.log(item);
@@ -52,8 +52,30 @@ export default class ClassModel {
     /* console.log(event); */
   }
 
-  // Métodos estáticos, que não dependem de parâmetros de entrada no construtor.
-  // Método de classe. A própria classe o chama...
+  /**-------------------------------------------------------------------------------- */
+
+  // MÉTODOS GET E SET
+
+  get method07() {
+    const parameter = this._parameter01 || " => saída padrão";
+    return "Saída de método com get e set " + parameter;
+  }
+
+  set method07(text) {
+    this._parameter01 = text;
+  }
+
+  // Método GET retornando a própria classe...
+  get method08() {
+    return this;
+  }
+
+  /**-------------------------------------------------------------------------------- */
+
+  // MÉTODOS ESTÁTICOS:
+  // Que não dependem de parâmetros de entrada no construtor.
+  // Método de classe. A própria classe o chama. Esses métodos e valores associados
+  //aparecem no console em __proto__ => constructor
 
   // Método para mostrar texto no console
   static method06(text) {
@@ -74,6 +96,8 @@ export default class ClassModel {
     }`;
   }
 
+  /**-------------------------------------------------------------------------------- */
+
   // Função de inicialização!
   init() {
     if (this.list.length) {
@@ -87,4 +111,11 @@ export default class ClassModel {
     // caso de encadeamento de métodos
     return this;
   }
+}
+
+//EXEMPO DE FUNÇÃO EXTENDIDA
+/**-------------------------------------------------------------------------------- */
+
+export class modelClassExtended extends ClassModel{
+
 }

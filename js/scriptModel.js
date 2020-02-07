@@ -1,4 +1,7 @@
-import ClassModel from './module/classModel.js';
+//importando módulos necessários... 
+
+import {ClassModel} from './module/classModel.js';
+import {modelClassExtended} from './module/classModel.js'
 
 /**-------------------------------------------------------------- */
 // Instanciando a classe ClasseModel
@@ -35,3 +38,20 @@ console.log(tamanho);
 
 /**-------------------------------------------------------------- */
 
+// Utilizando get e set para definir valores
+
+// Utilizando valor padrão '=> saída padrão'
+console.log(classModel.method07);
+// 'Saída de método com get e set  => saída padrão'
+
+
+//Atribuindo outro valor a method07 diferente do padrão
+classModel.method07 = "teste";
+console.log(classModel.method07);
+// 'Saída de método com get e set teste'
+
+/**-------------------------------------------------------------- */
+
+console.log(classModel);
+
+console.log(classModel.method08);
