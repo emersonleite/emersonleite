@@ -5,7 +5,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/webpack --watch | jekyll serve --incremental"
+    "build": "./node_modules/.bin/webpack --mode production --watch | jekyll serve --incremental",
+    "dev": "./node_modules/.bin/webpack --mode development --watch | jekyll serve --incremental"
   },
   "repository": {
     "type": "git",
