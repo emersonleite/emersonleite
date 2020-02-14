@@ -1,0 +1,68 @@
+/*----- Lista de posts -----*/
+
+.lista-posts {
+  min-height: 600px;
+}
+
+.post-link {
+  color: #cda112;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 2rem;
+}
+
+.post-link:visited{
+  color: #cda112;
+}
+
+a.post-link {
+  text-decoration: none;
+}
+
+.post-link:hover {
+  color: #252525;
+}
+
+.referencia-post {
+  padding-bottom: 50px;
+}
+
+.data-lista-post {
+  color: #252525;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  padding-top: 15px;
+}
+
+/*----- Fim de Lista de posts -----*/
+
+/*----- Posts -----*/
+
+.post {
+  min-height: 800px;
+}
+
+.post-title {
+  color: #cda112;
+  font-size: 2rem;
+  font-family: "Hammersmith One", sans-serif;
+  padding-top: 50px;
+}
+
+.post-content {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: #252525;
+  line-height: 1.6;
+  padding-bottom: 50px;
+}
+
+.data-post {
+  color: #252525;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 25px 0;
+}
+
+/*----- Fim de Posts -----*/

@@ -1,0 +1,11 @@
+- name: Linkedin
+  img: 'icone-linkedin.svg'
+  href: 'https://www.linkedin.com/in/emersonbatistaleite/'
+
+- name: Github
+  img: 'icone-github.svg'
+  href: 'https://github.com/engleite'
+
+- name: Codepen
+  img: 'icone-codepen.svg'
+  href: 'https://codepen.io/engleite'

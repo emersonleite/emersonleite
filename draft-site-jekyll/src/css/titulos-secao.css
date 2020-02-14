@@ -1,0 +1,61 @@
+/*----- Títulos de seção -----*/
+
+.titulo-portfolio,
+.titulo-certificados {
+  color: #cda112;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: normal;
+  font-size: 2.25em;
+  text-align: center;
+  text-transform: uppercase;
+  /**/
+  border: 2px solid #cda112;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  border-radius: 8px;
+}
+
+.titulo-portfolio:hover,
+.titulo-certificados:hover {
+  background: #cda112;
+  color: #252525;
+}
+
+.titulo-contato,
+.titulo-sobre, .titulo-view-posts {
+  color: #252525;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: normal;
+  font-size: 2.25em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.titulo-view-posts {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.titulo-contato {
+  border: 2px solid #252525;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  border-radius: 8px;
+}
+
+.titulo-contato:hover {
+  background: #252525;
+  color: white;
+}
+
+.caixa-titulo-secao {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  /*border-bottom: 3px solid #cda112;*/
+}
+
+/*----- Fim de Títulos de seção -----*/

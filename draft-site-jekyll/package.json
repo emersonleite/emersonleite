@@ -1,0 +1,27 @@
+{
+  "name": "jekyll-webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack --watch | jekyll serve --incremental"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recollate/jekyll-webpack-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/recollate/jekyll-webpack-demo/issues"
+  },
+  "homepage": "https://github.com/recollate/jekyll-webpack-demo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}

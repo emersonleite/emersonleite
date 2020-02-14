@@ -1,0 +1,19 @@
+/*----- Certificados -----*/
+
+.certificados {
+  background: #555555;
+}
+
+.certificados img {
+  border: 5px solid #cda112;
+}
+
+.lista-certificados ul li h2 {
+  color: #cda112;
+}
+
+.certificados img:hover {
+  border-color: #252525;
+}
+
+/*----- Fim de Certificados -----*/
