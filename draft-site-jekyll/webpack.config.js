@@ -17,21 +17,23 @@ module.exports = {
         query: {
           presets: ["@babel/preset-env"]
         }
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
       }
     ]
   }
 };
 
-/* const path = require('path');
-const webpack = require('webpack');
+/* const path = require("path");
+const webpack = require("webpack");
 
 module.exports = {
-  entry: {
-    homepage: "./webpack/homepage.js",
-    about: "./webpack/about.js"
-  },
+  entry: "./webpack/script.js",
   output: {
-    path: path.resolve(__dirname, "./src/assets/javascripts/")
+    path: path.resolve(__dirname, "./src/assets/javascripts/"),
+    filename: "main.js"
   },
   mode: "production",
   module: {

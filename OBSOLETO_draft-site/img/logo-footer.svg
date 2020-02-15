@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
-  <g id="logo-footer" transform="translate(-230 -2375)">
-    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(230 2375)" fill="none" stroke="#cda112" stroke-width="3">
-      <circle cx="24" cy="24" r="24" stroke="none"/>
-      <circle cx="24" cy="24" r="22.5" fill="none"/>
-    </g>
-    <text id="el" transform="translate(240 2408)" fill="#cda112" font-size="28" font-family="HammersmithOne, Hammersmith One" letter-spacing="0.05em"><tspan x="0" y="0">el</tspan></text>
-  </g>
-</svg>

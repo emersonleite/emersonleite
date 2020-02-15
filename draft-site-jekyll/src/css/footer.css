@@ -13,6 +13,11 @@
   padding-left: 19px;
 }
 
+.footer .box-960 .logo a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .footer .box-960 p {
   color: #cda112;
   font-family: "Hammersmith One", sans-serif;

@@ -6,6 +6,7 @@ import tooltip from "./module/tooltip-foto.js";
 import tooltipCheat from "./module/tooltip-cheat.js";
 import Countdown from "./module/countdown";
 import changeImage from './module/changeImage.js'
+import ChangeImageLogo from './module/changeImageLogo.js'
 
 
 accordion();
@@ -16,6 +17,9 @@ tooltipCheat();
 
 const Images = new changeImage();
 Images.init();
+
+/* const imageLogo = new ChangeImageLogo();
+imageLogo.init(); */
 
 
 

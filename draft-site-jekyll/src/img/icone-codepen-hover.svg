@@ -22,7 +22,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,25 +40,25 @@
      inkscape:window-height="837"
      id="namedview11"
      showgrid="false"
-     inkscape:zoom="4.9166667"
-     inkscape:cx="24"
-     inkscape:cy="24"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="25.226752"
+     inkscape:cy="30.492178"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg9" />
   <g
-     style="fill:#7c610b;stroke:#7c610b;stroke-width:3;fill-opacity:1;stroke-opacity:1"
+     style="fill:#ffffff;stroke:#e2b214;stroke-width:0;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
      data-name="Ellipse 10"
      id="Ellipse_10">
     <circle
-       style="stroke:#7c610b;fill:#7c610b;fill-opacity:1;stroke-opacity:1"
+       style="stroke:#e2b214;fill:#ffffff;fill-opacity:1;stroke-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
        id="circle2"
        r="24"
        cy="24"
        cx="24" />
     <circle
-       style="fill:#7c610b;fill-opacity:1;stroke:#7c610b;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#e2b214;stroke-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
        id="circle4"
        r="22.5"
        cy="24"
