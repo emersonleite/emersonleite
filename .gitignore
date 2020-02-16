@@ -4,4 +4,4 @@ _site
 node_modules
 public
 src/assets/javascripts/*.js
-prj*
+projects

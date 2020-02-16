@@ -2,10 +2,13 @@ const path = require("path");
 const webpack = require("webpack");
 
 module.exports = {
-  entry: "./webpack/script.js",
+  entry: {
+    home: "./webpack/home.js",
+    project: "./webpack/project.js"
+  }, 
   output: {
-    path: path.resolve(__dirname, "./src/assets/javascripts/"),
-    filename: "main.js"
+    path: path.resolve(__dirname, "./src/js/"),
+    filename: "[name].js"
   },
   mode: "production",
   module: {
@@ -26,6 +29,8 @@ module.exports = {
   }
 };
 
+
+
 /* const path = require("path");
 const webpack = require("webpack");
 
@@ -45,6 +50,10 @@ module.exports = {
         query: {
           presets: ["@babel/preset-env"]
         }
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
       }
     ]
   }
