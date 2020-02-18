@@ -12,7 +12,7 @@ collections:
 
 markdown: kramdown
 
-destination: _site
+destination: docs
 source: src
 exclude: ['node_modules']
 

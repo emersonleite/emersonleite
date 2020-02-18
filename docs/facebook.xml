@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recollate jekyll+webpack test</title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/facebook.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 18 Feb 2020 15:55:49 -0300</pubDate>
+    <lastBuildDate>Tue, 18 Feb 2020 15:55:49 -0300</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+    
+      <item>
+        <title>Título</title>
+        <pubDate>Mon, 17 Feb 2020 08:14:53 -0300</pubDate>
+        <link>/Lorem-ipsum-dolor-sit-it.html</link>
+        <guid isPermaLink="true">/Lorem-ipsum-dolor-sit-it.html</guid>
+        <image>
+          <url>https://www.w3schools.com/images/logo.gif</url>
+          <title>W3Schools.com</title>
+          <link>https://www.w3schools.com</link>
+        </image>
+      </item>
+    
+      <item>
+        <title></title>
+        <pubDate>Thu, 05 Dec 2019 20:20:02 -0300</pubDate>
+        <link>/Teste-de-postagem.html</link>
+        <guid isPermaLink="true">/Teste-de-postagem.html</guid>
+        <image>
+          <url>https://www.w3schools.com/images/logo.gif</url>
+          <title>W3Schools.com</title>
+          <link>https://www.w3schools.com</link>
+        </image>
+      </item>
+    
+      <item>
+        <title></title>
+        <pubDate>Thu, 05 Dec 2019 15:14:53 -0300</pubDate>
+        <link>/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">/welcome-to-jekyll.html</guid>
+        <image>
+          <url>https://www.w3schools.com/images/logo.gif</url>
+          <title>W3Schools.com</title>
+          <link>https://www.w3schools.com</link>
+        </image>
+      </item>
+    
+      <item>
+        <title>Tecnologia brasileira permite esvaziar barragens e fazer cimento</title>
+        <pubDate>Mon, 27 May 2019 00:00:00 -0300</pubDate>
+        <link>/tecnologia-brasileira-permite-esvaziar-barragens-e-fazer-cimento.html</link>
+        <guid isPermaLink="true">/tecnologia-brasileira-permite-esvaziar-barragens-e-fazer-cimento.html</guid>
+        <image>
+          <url>https://www.w3schools.com/images/logo.gif</url>
+          <title>W3Schools.com</title>
+          <link>https://www.w3schools.com</link>
+        </image>
+      </item>
+    
+      <item>
+        <title>Escola de engenharia vai levar alunos da rede pública para a Nasa</title>
+        <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+        <link>/escola-de-engenharia-vai-levar-alunos-da-rede-publica-para-a-nasa.html</link>
+        <guid isPermaLink="true">/escola-de-engenharia-vai-levar-alunos-da-rede-publica-para-a-nasa.html</guid>
+        <image>
+          <url>https://www.w3schools.com/images/logo.gif</url>
+          <title>W3Schools.com</title>
+          <link>https://www.w3schools.com</link>
+        </image>
+      </item>
+    
+  </channel>
+</rss>

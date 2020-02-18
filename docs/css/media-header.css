@@ -1,0 +1,19 @@
+@media (max-width:990px){
+  .header div{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 591px) {
+  .mobile-header {
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .header div{
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
