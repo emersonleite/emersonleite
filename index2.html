@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- START --- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157814516-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-157814516-1');
+        </script>
+        <!-- END --- Global site tag (gtag.js) - Google Analytics -->
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="contador para dia fatídico"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>Counter...</title>
+    </head>
+    <body>
+        <style>
+            /*reset*/
+            p,
+            body,
+            div {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background-color: #252525;
+                display: flex;
+            }
+
+            .container-countdown {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 100vh;
+                background-color: #252525;
+            }
+
+            .countdown {
+                background-color: #cda112;
+                display: block;
+                padding: 30px;
+                border: none;
+                border-radius: 20px;
+            }
+
+            p.counter {
+                font-weight: bold;
+                font-family: "IBM Plex Mono";
+                font-size: 5rem;
+                color: #252525;
+            }
+
+            p.bomb {
+                font-family: "IBM Plex Mono";
+                font-size: 12rem;
+                color: white;
+                display: block;
+                margin-top: 0;
+            }
+
+            img[src='logo.svg'] {
+                margin-bottom: 40px;
+                width: 200px;
+            }
+
+            @media(max-width: 900px) {
+                .countdown {
+                    margin: 0 50px;
+                }
+
+                p.counter {
+                    text-align: center;
+                    font-size: 3.5rem;
+                }
+
+                p.bomb {
+                    font-size: 9.5rem;
+                }
+
+                img[src='logo.svg'] {
+                    width: 150px;
+                    height: 150px;
+                }
+
+            }
+        </style>
+
+        <div class="container-countdown">
+            <img src="logo.svg" alt="">
+            <div class="countdown">
+                <p class="counter">Aqui</p>
+            </div>
+            <p class="bomb">&#128163</p>
+        </div>
+
+        <script type="module" src="./js/script.js"></script>
+    </body>
+</html>

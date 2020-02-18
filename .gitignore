@@ -1,0 +1,7 @@
+draft-site
+node_modules
+*.scss
+.jekyll-cache
+_site
+.jekyll-metadata
+20200218_estado_site
