@@ -1,10 +1,21 @@
 import ToFetch from "./module/tofetch.js";
+import changeImage from './module/changeImage.js'
+import modal from "./module/modal.js";
+import tooltipCheat from "./module/tooltip-cheat.js";
 
-// inicializando
+// inicializando fetch
 const tofetch = new ToFetch();
-
 tofetch.init();
-console.log(tofetch.init());
+
+// Imagens do footer
+const Images = new changeImage();
+Images.init();
+
+//Carregando modal
+modal();
+
+// Carregando tooltip
+tooltipCheat();
 
 
 //tofetch.anyFetch("https://blockchain.info/ticker");

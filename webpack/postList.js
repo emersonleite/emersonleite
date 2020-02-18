@@ -13,5 +13,5 @@ console.log(summary);
 
 const summaryArray = [... summary];
 summary.forEach(item => {
-  item.nextElementSibling.classList.add('post-excerpt');
+  item.nextElementSibling.classList.add('formacao');
 })
