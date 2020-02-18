@@ -1,7 +1,7 @@
-draft-site
-node_modules
-*.scss
-.jekyll-cache
 _site
+.sass-cache
 .jekyll-metadata
-20200218_estado_site
+node_modules
+public
+src/assets/javascripts/*.js
+projects
