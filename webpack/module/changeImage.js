@@ -12,7 +12,6 @@ export default class changeImage {
   addEventImagesLeave() {
     this.imagesArray.forEach(img => {
       img.addEventListener("mouseleave", event => {
-        console.log("deixou");
         event.currentTarget.src = event.currentTarget.src.replace(
           "-hover.svg",
           ".svg"

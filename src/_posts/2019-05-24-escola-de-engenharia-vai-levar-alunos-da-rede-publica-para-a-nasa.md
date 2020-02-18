@@ -6,7 +6,9 @@ tags:
 - rede pública
 - Escola de engenharia
 layout: post-view
-summary: "..." 
+summary:
+excerpt: 
+excerpt_separator: <!--Leias mais-->
 comments: true
 sharing:
   twitter: Escola de engenharia vai levar alunos da rede pública para a Nasa
@@ -16,6 +18,8 @@ source: https://noticias.r7.com/minas-gerais/escola-de-engenharia-vai-levar-alun
 ---
 
 EMGE aproveita tradição e qualidade do grupo Dom Helder para oferecer cursos de engenharia civil e computação em Belo Horizonte
+
+<!--Leias mais-->
 
 Alunos e um professor de uma escola pública de Minas Gerais terão a oportunidade de viajar até os Estados Unidos para conhecer a sede da Nasa, a agência espacial norte-americana.
 

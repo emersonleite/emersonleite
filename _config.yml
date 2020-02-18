@@ -6,8 +6,18 @@ twitter_username: recollateagency
 github_username:  recollate
 permalink: "/:title:output_ext"
 
+collections:
+  projects:
+    output: true
+
 markdown: kramdown
 
 destination: _site
 source: src
 exclude: ['node_modules']
+
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: emersonleitedev

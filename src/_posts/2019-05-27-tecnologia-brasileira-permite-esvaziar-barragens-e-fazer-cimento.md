@@ -1,7 +1,9 @@
 ---
 layout: post-view
 title: Tecnologia brasileira permite esvaziar barragens e fazer cimento
-summary: "..."
+summary:
+excerpt: 
+excerpt_separator: <!--Leias mais-->
 comments: true
 tags: 
   - tecnologia
@@ -15,6 +17,8 @@ source: https://istoe.com.br/tecnologia-brasileira-permite-esvaziar-barragens-e-
 ---
 
 Uma tecnologia desenvolvida na Universidade Federal de Minas Gerais (UFMG) oferece uma alternativa de aproveitamento dos rejeitos de minério armazenados nas barragens que há no Brasil semelhantes às que romperam em Mariana e Brumadinho e ameaçam Barão de Cocais.
+
+<!--Leias mais-->
 
 A pesquisa experimental conseguiu transformar o rejeito em uma espécie de cimento – pozolana -, em areia e em pigmento. Os produtos já se mostraram úteis como base de concreto, argamassa e pelotas de minério e podem ser aplicados na construção civil, na pavimentação de estradas e também na agricultura.
 

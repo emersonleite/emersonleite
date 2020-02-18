@@ -7,7 +7,9 @@ tags:
   - site
   - atualizações
 layout: post-view
-summary: "..."
+summary:
+excerpt: 
+excerpt_separator: <!--Leias mais-->
 comments: false
 sharing:
   twitter: Sobre a seção "Atualizações"
@@ -16,6 +18,8 @@ sharing:
 ---
 
 A seção atualizações tem como objetivo apresentar:
+
+ <!--Leias mais-->
 
 - Novidades com relação ao mercado da construção civil e engenharia de modo geral;
 

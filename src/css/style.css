@@ -1,5 +1,6 @@
 @import "custom.css";
-@import "main.css";
+@import 'highlighting.css';
+/*@import "main.css";*/
 @import "accordion.css";
 @import "modal.css";
 @import "shine.css";

@@ -1,8 +1,8 @@
 ---
 layout: post-view
 title: Lorem ipsum dolor sit amet
-date:   2100-12-05 15:14:53 -0300
-summary: "Lorem ipsum dolor sit amet."
+date:   2020-02-17 08:14:53 -0300
+summary:
 excerpt: 
 excerpt_separator: <!--Leias mais-->
 comments: true

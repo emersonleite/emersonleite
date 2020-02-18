@@ -1,3 +1,4 @@
 ---
-layout: posts_list
+layout: posts-list
+titlePage: 'posts'
 ---

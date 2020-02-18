@@ -6,7 +6,9 @@ tags:
 - veículos autônomos
 - Curitiba
 layout: post-view
-summary: "..."
+summary:
+excerpt: 
+excerpt_separator: <!--Leias mais-->
 comments: true
 sharing:
   twitter: Curitiba testa tecnologia para ônibus autônomos
@@ -17,6 +19,8 @@ source: https://canaltech.com.br/infra/curitiba-testa-tecnologia-para-onibus-aut
 ---
 
 O sistema VIA Mobile 360 ADAS, que viabiliza a navegação de ônibus e outros veículos sem motoristas presenciais, começou a ser avaliado no Brasil, mais precisamente na região metropolitana de Curitiba - PR. Desenvolvida pela VIA Technologies, o recurso tem sido testado com êxito na China e a expectativa é que, após as experiências no Brasil, seja, em breve, adotado em grande escala.
+
+<!--Leias mais-->
 
 Projetado e construído pela montadora chinesa Enchi Auto, o ônibus elétrico EV Bus é capaz de trafegar sem um condutor humano graças ao VIA Mobile 360 ADAS, capaz de captar imagens de tudo o que acontece ao redor do veículo, interpretá-las e compará-las a outras informações enviadas por outras fontes, como o GPS, por exemplo. Os dados são combinados e encaminhados à central do veículo, uma plataforma de big data que define os comandos que farão o ônibus ter uma reação adequada e instantânea em cada situação. 
 

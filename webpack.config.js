@@ -3,9 +3,12 @@ const webpack = require("webpack");
 
 module.exports = {
   entry: {
-    home: "./webpack/home.js",
-    project: "./webpack/project.js"
-  }, 
+    home: ['@babel/polyfill', 'whatwg-fetch', "./webpack/home.js"],
+    project: ['@babel/polyfill', 'whatwg-fetch', "./webpack/project.js"],
+    prj01: ['@babel/polyfill', 'whatwg-fetch', "./webpack/prj01.js"],
+    postList: ['@babel/polyfill', 'whatwg-fetch', "./webpack/postList.js"],
+    disqus: ['@babel/polyfill', 'whatwg-fetch', "./webpack/disqus.js"],
+  },
   output: {
     path: path.resolve(__dirname, "./src/js/"),
     filename: "[name].js"
@@ -28,8 +31,6 @@ module.exports = {
     ]
   }
 };
-
-
 
 /* const path = require("path");
 const webpack = require("webpack");
