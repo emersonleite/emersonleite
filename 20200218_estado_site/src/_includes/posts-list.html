@@ -1,0 +1,22 @@
+<section class="lista-posts">
+  <section class="caixa-titulo-secao">
+    <h1 class="titulo-post-list">
+      {{ page.titlePage }}
+    </h1>
+  </section>
+  <!--{% include search.html %}-->
+  <div class="box-768 column smaller-768" id="posts">
+    {% for post in site.posts %}
+    <div class="referencia-post">
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"
+          >{{ post.title }}</a
+        >
+      </h2>
+      <p class="data-lista-post">Postado em {% include page-date.html %}</p>
+      <p class="post-summary">{% if post.summary %} {{ post.summary }}{% endif %}</p>
+      {% if post.excerpt %} {{ post.excerpt }}{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>

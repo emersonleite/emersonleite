@@ -1,0 +1,51 @@
+<!--Certificados-->
+<!-- <section  class="caixa-titulo-secao certificados">
+  <h1 data-accordion-boolean="true" class="titulo-certificados" id="certificados">
+    Certificados
+  </h1>
+</section>
+<section class="certificados pb-30">
+  <div class="lista-certificados">
+    <ul class="box-960 justify-center">
+        <li>
+          <a href=#><img src="img/web-design.PNG" alt="Web Design"></a>
+        <h2>Web Design</h2>
+        </li>
+        <li>
+          <a href=#><img src="img/css-avancado.PNG" alt="Css Avançado"></a>
+        <h2>Css Avançado</h2>
+        </li>
+        <li>
+          <a href=#><img src="img/css-flexbox.PNG" alt="css Flexbox"></a>
+        <h2>css Flexbox</h2>
+        </li>
+    </ul>
+  </div>
+</section> -->
+<!--Fim de Certificados-->
+
+<!--Certificados-->
+<section class="caixa-titulo-secao certificados">
+  <h1
+    data-accordion-boolean="true"
+    class="titulo-certificados"
+    id="certificados"
+  >
+    Certificados
+  </h1>
+</section>
+<section class="certificados pb-30">
+  <div class="lista-certificados">
+    <ul class="box-960 justify-center">
+      {% for certificados in site.data.certificados %}
+      <li>
+        <a href="{{certificados.href}}"
+          ><img src="img/{{certificados.img}}" alt="{{certificados.name}}"
+        /></a>
+        <h2>{{certificados.name}}</h2>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+<!--Fim de Certificados-->

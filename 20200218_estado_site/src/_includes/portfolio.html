@@ -1,0 +1,22 @@
+<!--Portfólio-->
+<section class="caixa-titulo-secao portfolio">
+  <h1 data-accordion-boolean="true" class="titulo-portfolio" id="portfolio">
+    Portfólio
+  </h1>
+</section>
+<section class="portfolio pb-30">
+  <div class="box-960 lista-portfolio">
+    <div class="row-960">
+      <ul class="flex justify-center wrap">
+        {% for portfolio in site.data.portfolio %}
+        <li>
+          <a href="{{portfolio.href}}"
+            ><img src="img/{{portfolio.img}}" alt="{{portfolio.name}}"
+          /></a>
+          <h2>{{portfolio.name}}</h2>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
