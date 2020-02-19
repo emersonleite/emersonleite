@@ -31,12 +31,12 @@ export default function tooltipCheat() {
   function onMouseOver(event) {
     const tooltip = criarTooltipBox(this);
     coordenada.tooltipElement = tooltip;
-    console.log(coordenada.tooltipElement);
+    // console.log(coordenada.tooltipElement);
     /* */
 
     const largura = tooltip.clientWidth;
-    console.log(largura);
-    console.log(tooltip.clientHeight);
+    // console.log(largura);
+    // console.log(tooltip.clientHeight);
 
     if (maior) {
       tooltip.style.top = coordenada.Y - tooltip.clientHeight / 2 - 10 + "px";

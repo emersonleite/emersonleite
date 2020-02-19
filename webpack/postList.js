@@ -9,9 +9,8 @@ const Images = new changeImage();
 Images.init();
 
 const summary = document.querySelectorAll(".post-summary");
-console.log(summary);
 
 const summaryArray = [... summary];
-summary.forEach(item => {
+summaryArray.forEach(item => {
   item.nextElementSibling.classList.add('formacao');
-})
+});

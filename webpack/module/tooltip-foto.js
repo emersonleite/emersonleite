@@ -31,10 +31,7 @@ export default function tooltip() {
   function onMouseOver(event) {
     const tooltip = criarTooltipBox(this);
     coordenada.tooltipElement = tooltip;
-    console.log(coordenada.tooltipElement);
     const largura = tooltip.clientWidth;
-    console.log(largura);
-    console.log(tooltip.clientHeight);
 
     if (maior620) {
       tooltip.style.top = coordenada.Y - tooltip.clientHeight / 2 + "px";
