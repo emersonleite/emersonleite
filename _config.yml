@@ -2,6 +2,7 @@ title: Recollate jekyll+webpack test
 email: github@recollate.com
 description: ""
 url: ""
+baseurl: '/emersonleite'
 twitter_username: recollateagency
 github_username:  recollate
 permalink: "/:title:output_ext"
