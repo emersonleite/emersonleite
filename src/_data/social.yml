@@ -1,10 +1,10 @@
 - name: Linkedin
   img: 'icone-linkedin.svg'
-  href: 'https://www.linkedin.com/in/emersonbatistaleite/'
+  href: 'https://www.linkedin.com/in/emersonleite-dev/'
 
 - name: Github
   img: 'icone-github.svg'
-  href: 'https://github.com/engleite'
+  href: 'https://github.com/emersonleite'
 
 - name: Codepen
   img: 'icone-codepen.svg'

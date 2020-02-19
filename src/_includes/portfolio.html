@@ -10,7 +10,7 @@
       <ul class="flex justify-center wrap">
         {% for portfolio in site.data.portfolio %}
         <li>
-          <a href="{{portfolio.href}}"
+          <a href="{{ site.baseurl }}/{{portfolio.href}}"
             ><img src="img/{{portfolio.img}}" alt="{{portfolio.name}}"
           /></a>
           <h2>{{portfolio.name}}</h2>
