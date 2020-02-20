@@ -4,6 +4,10 @@
   background: #252525;
 }
 
+.portfolio ul li, .certificados ul li {
+  margin-top: 30px;
+}
+
 .portfolio img,
 .certificados img {
   width: 220px;
@@ -11,6 +15,8 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+
+
 
 .portfolio img:hover {
   border-color: #cda112;
@@ -29,6 +35,15 @@ ul li h2 {
 
 .flex-1-220 {
   flex-basis: 350px;
+}
+
+p.note {
+  font-family: "Hammersmith One", sans-serif;
+  color: #cda112;
+  font-size: 1.2em;
+  margin-top: 30px;
+  flex: 1;
+  text-align: center;
 }
 
 /*----- Fim do Portfólio -----*/
