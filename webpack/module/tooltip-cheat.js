@@ -10,13 +10,22 @@ export default function tooltipCheat() {
     Yalterada: ""
   };
 
-  if (maior) {
-    coordenada.Y = divCheat.offsetTop + anchor.clientHeight / 2;
-    coordenada.X = divCheat.offsetLeft + anchor.clientWidth;
-  } else {
-    coordenada.Y = divCheat.offsetTop + anchor.clientHeight;
-    coordenada.X = divCheat.offsetLeft + anchor.clientWidth / 2;
+  coordenadas();
+
+  function coordenadas(){
+    if (maior) {
+      coordenada.Y = divCheat.offsetTop + anchor.clientHeight / 2;
+      coordenada.X = divCheat.offsetLeft + anchor.clientWidth;
+    } else {
+      coordenada.Y = divCheat.offsetTop + anchor.clientHeight;
+      coordenada.X = divCheat.offsetLeft + anchor.clientWidth / 2;
+    }
   }
+
+  window.addEventListener('resize', ()=> {
+    coordenadas();
+  })
+ 
 
   anchor.addEventListener("mouseover", onMouseOver);
 
@@ -31,13 +40,7 @@ export default function tooltipCheat() {
   function onMouseOver(event) {
     const tooltip = criarTooltipBox(this);
     coordenada.tooltipElement = tooltip;
-    // console.log(coordenada.tooltipElement);
-    /* */
-
     const largura = tooltip.clientWidth;
-    // console.log(largura);
-    // console.log(tooltip.clientHeight);
-
     if (maior) {
       tooltip.style.top = coordenada.Y - tooltip.clientHeight / 2 - 10 + "px";
       tooltip.style.left = coordenada.X + 10 + "px";

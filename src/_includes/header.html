@@ -1,6 +1,6 @@
     <!--Header-->
     <header class="header">
-      <div class="box-960 pt-10 justify-between self-center">
+      <div class="box-960 pt-10 pb-10 justify-between self-center">
         <a class="logo" href="{{ site.baseurl }}/"><img src="img/logo.svg" alt="logo Emerson"/></a>
         <nav>
           <ul class="flex wrap mobile-header self-center">
@@ -8,7 +8,9 @@
             <li><a href="{{ site.baseurl }}/#portfolio">portfólio</a></li>
             <li><a href="{{ site.baseurl }}/#certificados">certificados</a></li>
             <li><a href="{{ site.baseurl }}/#contato">contato</a></li>
+            {% if site.curriculo == true %}
             <li><div class="cheat-sheet"><a aria-label="CRTL + ALT + D..." href="/#doc">video currículo</a></div></li>
+            {% endif %}
           </ul>
         </nav>
       </div>

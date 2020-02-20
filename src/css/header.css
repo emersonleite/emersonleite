@@ -25,6 +25,7 @@ iframe {
   padding-bottom: 28px;
   padding-top: 12px;
   color: #cda112;
+  display: none;
 }
 
 .header nav ul li a:hover[href='/#doc']{

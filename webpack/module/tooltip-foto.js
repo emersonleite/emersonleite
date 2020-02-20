@@ -10,14 +10,27 @@ export default function tooltip() {
     Yalterada: ""
   };
 
-  if (maior620) {
-    coordenada.Y = divFoto.offsetTop + photo.clientHeight / 2;
-    coordenada.X = divFoto.offsetLeft + photo.clientWidth;
-  } else {
-    coordenada.Y = divFoto.offsetTop + photo.clientHeight;
-    coordenada.X = divFoto.offsetLeft + photo.clientWidth / 2;
+  coordenadas();
+
+  function coordenadas(){
+    if (maior620) {
+      coordenada.Y = divFoto.offsetTop + photo.clientHeight / 2;
+      coordenada.X = divFoto.offsetLeft + photo.clientWidth;
+    } else {
+      coordenada.Y = divFoto.offsetTop + photo.clientHeight;
+      coordenada.X = divFoto.offsetLeft + photo.clientWidth / 2;
+    }
+    return {
+      Y: coordenada.Y,
+      X: coordenada.X,
+    }
   }
 
+  window.addEventListener('resize', ()=> {
+    coordenadas();
+    //console.log(coordenadas()['X']);
+  })
+  
   photo.addEventListener("mouseover", onMouseOver);
 
   const onMouseLeave = {

@@ -19,9 +19,10 @@
 
 .titulo-post-list {
   font-family: "Hammersmith One", sans-serif;
-  color: #fff;
-  background:  #cda112;
-  border: 2px solid #cda112;
+  /*color: #fff;*/
+  color: #000;
+  /*background:  #cda112;*/
+  /*border: 2px solid #cda112;*/
   padding: 5px 25px;
   border-radius: 8px;
   font-size: 2.25em;
