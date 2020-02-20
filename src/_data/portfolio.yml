@@ -1,20 +1,20 @@
-- name: Bikcraft
+- name: Bikcraft*
   img: 'bikcraft.png'
   href: '/portfolio/bikcraft'
 
-- name: Brafe I
+- name: Brafe I*
   img: 'brafe-1.png'
   href: '/portfolio/brafe1'
 
-- name: Brafe II
+- name: Brafe II*
   img: 'brafe-2.png'
   href: '/portfolio/brafe2'
 
-- name: Brafe III
+- name: Brafe III*
   img: 'brafe-3.png'
   href: '/portfolio/brafe3'
 
-- name:  Flexblog
+- name:  Flexblog*
   img: 'flexblog.png'
   href: '/portfolio/flexblog'
 
