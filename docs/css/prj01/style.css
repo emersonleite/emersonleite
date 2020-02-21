@@ -11,13 +11,17 @@
   max-width: 980px;
 }
 
-form.search {
-  flex: 1;
+.project01-container{
+  min-height: 700px;
+}
+
+form.search-form {
+  flex: 2;
 }
 
 .input-search {
   color: black;
-  width: calc(50% - 10px);
+  width: 100%;
   height: 20px;
   font-size: 1.5em;
   padding: 20px 30px;
@@ -27,7 +31,10 @@ form.search {
 }
 
 .section-header {
-  width: calc(50% - 10px) ;
   border: 1px solid black;
+  flex: 1;
+}
+
+.section-data {
   flex: 1;
 }

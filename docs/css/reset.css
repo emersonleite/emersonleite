@@ -40,4 +40,9 @@ html {
   scroll-behavior: smooth;
 }
 
+/*Retirando bordas em elementos com foco*/
+textarea:focus, input:focus{
+  outline: none;
+}
+
 /* ----- Fim de Reset ----- */

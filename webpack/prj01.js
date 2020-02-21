@@ -5,7 +5,7 @@ import tooltipCheat from "./module/tooltip-cheat.js";
 
 // inicializando fetch
 const tofetch = new ToFetch();
-tofetch.init();
+/* tofetch.init(); */
 
 // Imagens do footer
 const Images = new changeImage();
