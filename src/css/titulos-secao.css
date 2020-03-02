@@ -44,6 +44,10 @@
   text-transform: uppercase;
 }
 
+.titulo-sobre {
+  margin-bottom: 50px;
+}
+
 .titulo-view-posts {
   margin-top: 50px;
   margin-bottom: 50px;
