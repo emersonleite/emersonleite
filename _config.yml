@@ -2,7 +2,7 @@ title: Emerson Leite - emersonleite.dev
 curriculo: true
 description: "Desenvolvedor Javascript | Front-end | UX/ UI Desing"
 url: "https://www.emersonleite.dev"
-baseurl: '/emersonleite'
+baseurl: 
 permalink: "/:title:output_ext"
 
 markdown: kramdown
