@@ -18,11 +18,3 @@
   img: 'flexblog.png'
   href: '/portfolio/flexblog'
 
-- name: Emerson
-  img: 'emerson.png'
-  href: '/'
-
-- name: Unna
-  img: 'unna.png'
-  href: 'https://www.unna.eng.br'
-

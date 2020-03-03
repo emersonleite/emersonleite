@@ -1,16 +1,9 @@
-title: Recollate jekyll+webpack test
+title: Emerson Leite - emersonleite.dev
 curriculo: true
-email: github@recollate.com
-description: ""
-url: ""
+description: "Desenvolvedor Javascript | Front-end | UX/ UI Desing"
+url: "https://www.emersonleite.dev"
 baseurl: '/emersonleite'
-twitter_username: recollateagency
-github_username:  recollate
 permalink: "/:title:output_ext"
-
-collections:
-  projects:
-    output: true
 
 markdown: kramdown
 
