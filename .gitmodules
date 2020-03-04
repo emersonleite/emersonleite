@@ -1,3 +1,6 @@
 [submodule "src/tms-editor"]
 	path = src/tms-editor
 	url = /tms-editor
+[submodule "src/tmseditor"]
+	path = src/tmseditor
+	url = /tmseditor
