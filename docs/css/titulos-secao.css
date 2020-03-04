@@ -1,0 +1,77 @@
+/*----- Títulos de seção -----*/
+
+.titulo-portfolio,
+.titulo-certificados,
+.titulo-projetos {
+  color: #cda112;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: normal;
+  font-size: 2.25em;
+  text-align: center;
+  text-transform: uppercase;
+  /**/
+  border: 2px solid #cda112;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  border-radius: 8px;
+}
+
+.titulo-post-list {
+  font-family: "Hammersmith One", sans-serif;
+  /*color: #fff;*/
+  color: #000;
+  /*background:  #cda112;*/
+  /*border: 2px solid #cda112;*/
+  padding: 5px 25px;
+  border-radius: 8px;
+  font-size: 2.25em;
+}
+
+.titulo-portfolio:hover,
+.titulo-certificados:hover {
+  background: #cda112;
+  color: #252525;
+}
+
+.titulo-contato,
+.titulo-sobre {
+  color: #252525;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: normal;
+  font-size: 2.25em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.titulo-sobre {
+  margin-bottom: 50px;
+}
+
+.titulo-view-posts {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.titulo-contato {
+  border: 2px solid #252525;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  border-radius: 8px;
+}
+
+.titulo-contato:hover {
+  background: #252525;
+  color: white;
+}
+
+.caixa-titulo-secao {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  /*border-bottom: 3px solid #cda112;*/
+}
+
+/*----- Fim de Títulos de seção -----*/
