@@ -1,7 +1,7 @@
 /*----- Lista de posts -----*/
 
 .lista-posts {
-  min-height: 600px;
+  min-height: 100vh;
 }
 
 .post-link {
