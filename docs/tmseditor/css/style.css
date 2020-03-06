@@ -5,6 +5,7 @@
 @import "footer.css";
 @import "editor.css";
 @import "flex.css";
+@import "media.css";
 
 body {
   background: #fff3cc;
