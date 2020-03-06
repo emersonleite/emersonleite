@@ -1,0 +1,1 @@
+import Editor from '../src/tmseditor/js/modules/editor.js';
