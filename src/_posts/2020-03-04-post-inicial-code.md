@@ -1,6 +1,6 @@
 ---
 layout: post-view-code
-title: Post inicial
+title: Post inicial com código
 date:   2020-03-04 08:00:00 -0300
 summary: 
 excerpt: 
@@ -15,6 +15,8 @@ sharing:
   linkedin: Título
 source: link
 ---
+
+{% include teste.html %}
 
 Olá!
 

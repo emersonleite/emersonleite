@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<!--Head-->
+  <!--Head-->
 <head>
-
   <!-- START --- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157814516-1"></script>
 <script>
@@ -19,31 +18,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <meta name="" content= ""/>
+  <meta name="description" content="Site em constante desenvolvimento de Emerson Leite" />
 
   <meta property="og:type" content="website"/>
-  <meta property="og:title" content="Emerson Leite - emersonleite.dev"/>
-  <meta property="og:description" content="Desenvolvedor Javascript | Front-end | UX/ UI Desing"/>
-  <meta property="og:url" content="https://www.emersonleite.dev"/>
-  <meta property="og:image" content="./img/Foto.png"/>
-
-  <!-- Link para fontes -->
+  <meta property="og:title" content="emersonleite.dev"/>
+  <meta property="og:description" content="Site em constante desenvolvimento de Emerson Leite"/>
+  <meta property="og:url" content="http://teste.com"/>
+  <meta property="og:image" content="img/Foto.png"/>
 
   <link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
-
- 
+  <!-- <link rel="shortcut icon" href="favicon.ico"/> -->
   <link rel="stylesheet" type="text/css" href="./css/style.css"/>
   <link rel="stylesheet"  type="text/css" href="./css/custom.css"/>
 
-  <!-- Link favicon -->
+   <!--Algolia-->
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch.min.css">
+   <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4"></script>
+
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch-theme-algolia.min.css">
+
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
   <link rel="manifest" href="/favicon/site.webmanifest">
 
-  <title>Emerson Leite - emersonleite.dev</title>
+  <title></title>
 </head>
 <!--Fim de Head-->
   <body>
@@ -64,80 +65,55 @@
         </nav>
       </div>
     </header>
-    <!--Fim de Header-->
-    <section class="lista-posts">
-  <section class="caixa-titulo-secao">
-    <h1 class="titulo-post-list">
-      posts
-    </h1>
-  </section>
-  <!--<div class="search">
-  <div class="box-960 pt-50 pb-50 smaller-960">
-    <input type="search" name="search-input" id="search-input" />
-  </div>
-</div>
--->
-  <div class="box-768 column smaller-768" id="posts">
-    
-    <div class="referencia-post">
-      <h2>
-        <a class="post-link" href="/post-inicial.html"
-          >Post inicial</a
-        >
-      </h2>
-      <p class="data-lista-post">Postado em 
-4
-de
-Março
-  
-de 2020</p>
-      <!--VERIFICAR-->
-      <!-- <p class="post-summary"></p>
-       <p>Olá!</p>
+    <!--Fim de Header--> 
+    <div class="post-back box-768 pt-50">
+  <a href="/posts"><p>Voltar</p></a>
+</div> 
+    <article
+  class="post box-960 smaller-768"
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Post inicial</h1>
+    <p class="data-post">Postado em 4 de Março de 2020</p>
+  </header>
+  <div class="post-content" itemprop="articleBody">
+    <div class="post-content body">
+      <p>Olá!</p>
 
 <p>O objetivo primordial desse espaço é apresentar análises sobre desenvolvimento front-end e UX Design.
 Fique a vontade de interagir através de comentários e sugestões, que podem ser mandadas, também, por e-mail!</p>
 
 <p>Agradeço a todos!</p>
- -->
+
     </div>
-    
-    <div class="referencia-post">
-      <h2>
-        <a class="post-link" href="/post-inicial-code.html"
-          >Post inicial com código</a
-        >
-      </h2>
-      <p class="data-lista-post">Postado em 
-4
-de
-Março
-  
-de 2020</p>
-      <!--VERIFICAR-->
-      <!-- <p class="post-summary"></p>
-       <div class="editor flex-container">
-  <textarea class="editor__console">
-console.log('ola mundo')
-  </textarea>
-  <div class="editor__result" id="editor__result"></div>
-<img class="editor__button-run" id="run" src="./img/big-arrow.svg" alt="" />
-<img class="editor__button-clear" id="clear" src="./img/clear-button.svg" alt="" />
-<img class="editor__button-reset" id="reset" src="./img/reset-button.svg" alt="" />
-</div>
-
-<p>Olá!</p>
-
-<p>O objetivo primordial desse espaço é apresentar análises sobre desenvolvimento front-end e UX Design.
-Fique a vontade de interagir através de comentários e sugestões, que podem ser mandadas, também, por e-mail!</p>
-
-<p>Agradeço a todos!</p>
- -->
-    </div>
-    
   </div>
-</section>
+</article>
+ 
+    <div class= 'box-768' id="disqus_thread">
+</div>
+<script>
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://emersonleite.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
 
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+ 
     <!-- Footer -->
 <footer class="footer">
   <div class="box-960 flex justify-between items-center mobile-footer">
@@ -171,7 +147,8 @@ Fique a vontade de interagir através de comentários e sugestões, que podem se
 </footer>
 <!-- Fim de Footer -->
 
-
-    <script src="./js/postList.js"></script> 
+    <script src='./js/project.js'></script>
+<!-- <script src='./js/disqus.js'></script> -->
   </body>
+  
 </html>

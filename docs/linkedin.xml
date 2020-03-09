@@ -5,8 +5,8 @@
     <description>Desenvolvedor Javascript | Front-end | UX/ UI Desing</description>
     <link>https://www.emersonleite.dev/</link>
     <atom:link href="/linkedin.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 06 Mar 2020 19:10:49 -0300</pubDate>
-    <lastBuildDate>Fri, 06 Mar 2020 19:10:49 -0300</lastBuildDate>
+    <pubDate>Sat, 07 Mar 2020 17:13:40 -0300</pubDate>
+    <lastBuildDate>Sat, 07 Mar 2020 17:13:40 -0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
     
@@ -15,6 +15,18 @@
         <pubDate>Wed, 04 Mar 2020 08:00:00 -0300</pubDate>
         <link>/post-inicial.html</link>
         <guid isPermaLink="true">/post-inicial.html</guid>
+        <image>
+          <url>https://www.w3schools.com/images/logo.gif</url>
+          <title>W3Schools.com</title>
+          <link>https://www.w3schools.com</link>
+        </image>
+      </item>
+    
+      <item>
+        <title>Título</title>
+        <pubDate>Wed, 04 Mar 2020 08:00:00 -0300</pubDate>
+        <link>/post-inicial-code.html</link>
+        <guid isPermaLink="true">/post-inicial-code.html</guid>
         <image>
           <url>https://www.w3schools.com/images/logo.gif</url>
           <title>W3Schools.com</title>
