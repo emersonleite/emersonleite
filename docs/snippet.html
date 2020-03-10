@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdn.jsdelivr.net/npm/codemirror@5.52.0/lib/codemirror.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/codemirror@5.52.0/mode/javascript/javascript.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/codemirror@5.52.0/addon/hint/javascript-hint.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/codemirror@5.52.0/addon/hint/show-hint.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.52.0/addon/hint/show-hint.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.52.0/lib/codemirror.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.52.0/theme/dracula.css"/>
+  
+  <title>Snippet</title>
+</head>
+<body>
+
+  <script>
+
+async function loading(){
+document.head.append(`<script src="https://cdn.jsdelivr.net/gh/emersonleite/TMS-Editor/js/modules/tms-editor.js"></script>`);
+
+let carregado = await callEditor();
+}
+
+loading();
+
+
+function callEditor(){
+  const options = {
+  mode: "javascript",
+  theme: "dracula",
+  lineNumbers: true,
+  extraKeys: { "Ctrl-Space": "autocomplete" },
+  lineWrapping: true
+};
+
+// iniciando o editor
+const editor1 = new editor(
+  options,
+  ".editor__console",
+  ".editor__result",
+  "#run",
+  ".editor__button-clear",
+  ".editor__button-reset"
+);
+
+console.log(editor1);
+console.log('ola')
+}
+
+  </script>
+
+<div class="editor flex-container">
+  <textarea class="editor__console">
+const carros = ['Ford', 'Fiat', 'Honda'];
+carros.forEach(function(item, index, array) {
+console.log(item.toUpperCase());
+});
+  </textarea>
+  <div class="editor__result" id="editor__result"></div>
+<button class="editor__button-run" id='run'>run</button>
+<div class="editor__button-clear" id="clear" > </div>
+<div class="editor__button-reset" id="reset" ></div>
+</div>
+
+</body>
+</html>
