@@ -3,30 +3,18 @@
   <channel>
     <title>Emerson Leite - emersonleite.dev</title>
     <description>Desenvolvedor Javascript | Front-end | UX/ UI Desing</description>
-    <link>https://www.emersonleite.dev/</link>
-    <atom:link href="/linkedin.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 Mar 2020 10:22:12 -0300</pubDate>
-    <lastBuildDate>Mon, 09 Mar 2020 10:22:12 -0300</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/linkedin.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 11 Mar 2020 19:10:42 -0300</pubDate>
+    <lastBuildDate>Wed, 11 Mar 2020 19:10:42 -0300</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
     
     
       <item>
         <title>Título</title>
         <pubDate>Wed, 04 Mar 2020 08:00:00 -0300</pubDate>
-        <link>/post-inicial.html</link>
-        <guid isPermaLink="true">/post-inicial.html</guid>
-        <image>
-          <url>https://www.w3schools.com/images/logo.gif</url>
-          <title>W3Schools.com</title>
-          <link>https://www.w3schools.com</link>
-        </image>
-      </item>
-    
-      <item>
-        <title>Título</title>
-        <pubDate>Wed, 04 Mar 2020 08:00:00 -0300</pubDate>
-        <link>/post-inicial-code.html</link>
-        <guid isPermaLink="true">/post-inicial-code.html</guid>
+        <link>http://localhost:4000/post-inicial.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post-inicial.html</guid>
         <image>
           <url>https://www.w3schools.com/images/logo.gif</url>
           <title>W3Schools.com</title>
