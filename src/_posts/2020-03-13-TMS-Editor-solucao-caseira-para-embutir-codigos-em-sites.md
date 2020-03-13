@@ -1,6 +1,7 @@
 ---
 layout: post-view
 title: 'TMS Editor: solução caseira para embutir códigos em sites'
+description: 'Solução para edição de códigos no navegador. Feito em JS puro. Fiquem a vontade de ajudar a desenvolver'
 img: 'tms-editor'
 date:   2020-03-13 07:00:00 -0300
 summary: 'TMS Editor: solução caseira para embutir códigos em sites'

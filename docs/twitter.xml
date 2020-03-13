@@ -5,13 +5,14 @@
     <description>Desenvolvedor Javascript ES6 | Front-end | UX/ UI Desing</description>
     <link>https://www.emersonleite.dev/</link>
     <atom:link href="https://www.emersonleite.dev/twitter.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Mar 2020 13:58:53 -0300</pubDate>
-    <lastBuildDate>Fri, 13 Mar 2020 13:58:53 -0300</lastBuildDate>
+    <pubDate>Fri, 13 Mar 2020 14:15:46 -0300</pubDate>
+    <lastBuildDate>Fri, 13 Mar 2020 14:15:46 -0300</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
     
       <item>
         <title>TMS Editor: solução caseira para embutir códigos em sites</title>
+        <description>Solução para edição de códigos no navegador. Feito em JS puro. Fiquem a vontade de ajudar a desenvolver</description>
         <pubDate>Fri, 13 Mar 2020 07:00:00 -0300</pubDate>
         <link>https://www.emersonleite.dev/TMS-Editor-solucao-caseira-para-embutir-codigos-em-sites.html</link>
         <guid isPermaLink="true">https://www.emersonleite.dev/TMS-Editor-solucao-caseira-para-embutir-codigos-em-sites.html</guid>
@@ -24,6 +25,7 @@
     
       <item>
         <title>Título</title>
+        <description></description>
         <pubDate>Wed, 04 Mar 2020 08:00:00 -0300</pubDate>
         <link>https://www.emersonleite.dev/post-inicial.html</link>
         <guid isPermaLink="true">https://www.emersonleite.dev/post-inicial.html</guid>
