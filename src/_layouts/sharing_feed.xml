@@ -1,6 +1,5 @@
 ---
 ---
-
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -19,9 +18,9 @@
         <link>{{ post.url | absolute_url }}</link>
         <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
         <image>
-          <url>https://www.w3schools.com/images/logo.gif</url>
-          <title>W3Schools.com</title>
-          <link>https://www.w3schools.com</link>
+          <url>{{ site.url }}/img/Foto.png</url>
+          <title>{{ site.title | xml_escape }}</title>
+          <link>{{ site.url }}</link>
         </image>
       </item>
     {% endfor %}
