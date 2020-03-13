@@ -39,7 +39,7 @@ a.post-link {
   color: #252525;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.2em;
   padding-top: 15px;
 }
 
@@ -68,12 +68,39 @@ article.post {
   line-height: 1.6em;
 }
 
+.post-back p {
+  background-color: #cda112;
+  border-radius: 8px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 1em;
+  padding: 10px;
+}
+
+.post-back p:hover {
+  background-color: #252525;
+  color: white;
+}
+
+.post-back a {
+  text-decoration: none;
+}
 .post-content {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #252525;
   line-height: 1.6;
   padding-bottom: 50px;
+}
+
+.post-paragraph {
+  margin-top: 40px;
+  text-indent: 1.5em;
+}
+
+.first-paragraph {
+  text-indent: 1.5em;
 }
 
 .post-content.body {
@@ -86,7 +113,7 @@ article.post {
   color: #252525;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.2em;
   padding: 20px 0;
 }
 

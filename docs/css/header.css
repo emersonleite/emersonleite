@@ -12,6 +12,10 @@ iframe {
   width: 100%;*/
 }
 
+.header a {
+  text-decoration: none;
+}
+
 .header nav ul li {
   font-family: "Hammersmith One", sans-serif;
   text-transform: capitalize;
