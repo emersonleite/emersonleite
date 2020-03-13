@@ -18,7 +18,7 @@
         <link>{{ post.url | absolute_url }}</link>
         <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
         <image>
-          <url>{{ site.url }}/img/Foto.png</url>
+          <url>{{ site.url }}/img-posts/{{ post.img }}.png</url>
           <title>{{ site.title | xml_escape }}</title>
           <link>{{ site.url }}</link>
         </image>

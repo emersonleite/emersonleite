@@ -1,13 +1,15 @@
 ---
 layout: post-view
 title: 'TMS Editor: solução caseira para embutir códigos em sites'
+img: 'tms-editor'
 date:   2020-03-13 07:00:00 -0300
 summary: 'TMS Editor: solução caseira para embutir códigos em sites'
 excerpt: 
 excerpt_separator: <!--Leias mais-->
 comments: true
-categories: [editor,codigo, javascript]
-tags: [editor,codigo, javascript]
+categories: [editor de codigo, javascript, playground]
+tags: [editor de codigo, javascript, playground]
+video: '<iframe width="960" height="502" src="https://www.youtube.com/embed/cdKZDeE94r0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 
 sharing:
   twitter: 'TMS Editor: solução caseira para embutir códigos em sites'
@@ -20,6 +22,7 @@ Sempre gostei de ferramentas para codificação as quais pudessem ser editadas d
 
 A grande limitação dessas ferramentas, a meu ver - isso é opinião minha - é o fato de que, o código, de fato não é seu. Se 'der na louca' de o provedor de espaço para códigos querer cobrar pelo espaço que antes era gratuito, você, pobre developer (geralmente duro), vai ter que pagar por ele. E, às vezes, caro. Aliás, os planos gratuitos, geralmente, não permitem que esses códigos sejam embutidos (palavra feia), ou melhor, do inglês: *embedded* e editáveis ao mesmo tempo dentro do seu site. E isso é ruim, se você quiser códigos com os quais seus leitores possam interagir de fato.
 
+{{ page.video }}
 
 Semanas atrás, descobri um editor de código na faixa e opensource. Ele é o *codemirror*. Que, segundo descrição própria, e em livre tradução, é ‘um editor de texto versátil, implementado em Javascript para o navegador’. Esse editor permite que sejam embutidos dentro de determinados sites códigos nas mais diversas linguagens, com alguns recursos como o de autocompletar e destaque por palavras chaves, da sintaxe, ou, em inglês, o recurso de *Syntax-Highlighting*, entre outros muitos recursos a explorar (fiquem a vontade, também).
 

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emerson Leite - emersonleite.dev</title>
-    <description>Desenvolvedor Javascript es6 | Front-end | UX/ UI Desing</description>
+    <description>Desenvolvedor Javascript ES6 | Front-end | UX/ UI Desing</description>
     <link>https://www.emersonleite.dev/</link>
     <atom:link href="https://www.emersonleite.dev/twitter.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Mar 2020 10:09:53 -0300</pubDate>
-    <lastBuildDate>Fri, 13 Mar 2020 10:09:53 -0300</lastBuildDate>
+    <pubDate>Fri, 13 Mar 2020 13:58:53 -0300</pubDate>
+    <lastBuildDate>Fri, 13 Mar 2020 13:58:53 -0300</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
     
@@ -16,7 +16,7 @@
         <link>https://www.emersonleite.dev/TMS-Editor-solucao-caseira-para-embutir-codigos-em-sites.html</link>
         <guid isPermaLink="true">https://www.emersonleite.dev/TMS-Editor-solucao-caseira-para-embutir-codigos-em-sites.html</guid>
         <image>
-          <url>https://www.emersonleite.dev/img/Foto.png</url>
+          <url>https://www.emersonleite.dev/img-posts/tms-editor.png</url>
           <title>Emerson Leite - emersonleite.dev</title>
           <link>https://www.emersonleite.dev</link>
         </image>
@@ -28,7 +28,7 @@
         <link>https://www.emersonleite.dev/post-inicial.html</link>
         <guid isPermaLink="true">https://www.emersonleite.dev/post-inicial.html</guid>
         <image>
-          <url>https://www.emersonleite.dev/img/Foto.png</url>
+          <url>https://www.emersonleite.dev/img-posts/.png</url>
           <title>Emerson Leite - emersonleite.dev</title>
           <link>https://www.emersonleite.dev</link>
         </image>
