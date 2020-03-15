@@ -8,7 +8,7 @@ module.exports = {
     postList: ['@babel/polyfill', 'whatwg-fetch', "./webpack/postList.js"],
     disqus: ['@babel/polyfill', 'whatwg-fetch', "./webpack/disqus.js"],
     js20200305: ['@babel/polyfill', 'whatwg-fetch', "./webpack/20200305.js"],
-    postParagraph: ['@babel/polyfill', 'whatwg-fetch', "./webpack/postParagraph.js"]
+    /* postParagraph: ['@babel/polyfill', 'whatwg-fetch', "./webpack/postParagraph.js"] */
   },
   output: {
     path: path.resolve(__dirname, "./src/js/"),
