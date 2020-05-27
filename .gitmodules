@@ -1,3 +1,7 @@
 [submodule "src/projetos/tms"]
 	path = src/projetos/tms
 	url = /tms
+
+[submodule "src/projetos/covidata"]
+	path = src/projetos/covidata
+	url = /covidata
