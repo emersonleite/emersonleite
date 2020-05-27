@@ -3,5 +3,5 @@
 	url = /tms
 
 [submodule "src/projetos/covidata"]
-	path = src/projetos/covidata
-	url = /covidata
+	path = src/projetos/covidata/app
+	url = /covidata/app
